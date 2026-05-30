@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Hat Language Site</title>
+    <title>Hat Language IE Site</title>
+    <script>
+        // Polyfill to give Internet Explorer the .trim() function
+        if (!String.prototype.trim) {
+            String.prototype.trim = function () {
+                return this.replace(/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g, '');
+            };
+        }
+    </script>
 </head>
 <body>
 
@@ -11,19 +19,15 @@
         <HAT>
             style(backgroundColor, #f4f4f4)
             style(padding, 20px)
-            style(fontFamily, sans-serif)
 
-            header("Welcome to the Ultimate Hat Site")
+            header("IE-Compatible Hat Script")
             
-            data(basePrice = 50)
-            data(shipping = 5)
+            data(numA = 20)
+            data(numB = 30)
+            math(result = numA + numB)
             
-            math(totalPrice = basePrice + shipping)
-            
-            show("Your total calculation is:")
-            show(totalPrice)
-            
-            link("Visit Repository", "https://worlds194.github.io/Hat/")
+            show("The calculation outputted:")
+            show(result)
         </HAT>
     </script>
 
