@@ -1,5 +1,15 @@
-BGCOLOR = #eee
-COLOR = #000000
-TITLE = Example Domain
-COLOR = #333333
-TEXT = This domain is for use in documentation examples without needing permission. Avoid use in operations.
+BGCOLOR = #0f172a
+COLOR = #ffffff
+TITLE = Welcome to ByteHub Station!
+SUBTITLE = Powered by BYTEScript Engines
+
+ALERT = Warning: Secure terminal connection authorized.
+
+TEXT = Look at this beautiful content box built entirely without regular code elements:
+BOX = #1e293b | #334155 | This text lives inside a slick box module! Easy to create and fully customized.
+
+HR = True
+
+TEXT = Click below to test out network links:
+LINK = Navigate to main records vault | byte://vault.gov
+LINK = Try accessing banned google link | https://google.com
