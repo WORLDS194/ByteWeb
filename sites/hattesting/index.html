@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hat Language Site</title>
+</head>
+<body>
+
+    <div id="hat-output"></div>
+
+    <script type="text/plain">
+        <HAT>
+            style(backgroundColor, #f4f4f4)
+            style(padding, 20px)
+            style(fontFamily, sans-serif)
+
+            header("Welcome to the Ultimate Hat Site")
+            
+            data(basePrice = 50)
+            data(shipping = 5)
+            
+            math(totalPrice = basePrice + shipping)
+            
+            show("Your total calculation is:")
+            show(totalPrice)
+            
+            link("Visit Repository", "https://worlds194.github.io/Hat/")
+        </HAT>
+    </script>
+
+    <script src="https://worlds194.github.io/Hat/hatengine.js"></script>
+
+</body>
+</html>
