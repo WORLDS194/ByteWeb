@@ -4,42 +4,42 @@ TITLE = BYTE:// Network Documentation Station
 COLOR = #94a3b8
 SUBTITLE = Welcome to the Official ByteScript Manual
 
-TEXT = ByteScript is the native, ultra-secure, line-by-line configuration layout language used to render web stations across the BYTE network ecosystem. It completely removes the need for heavy HTML boilerplate.
+TEXT = <span style='font-size:13px;'>ByteScript is the native, ultra-secure, line-by-line configuration layout language used to render web stations across the BYTE network ecosystem. It completely removes the need for heavy HTML boilerplate.</span>
 
 HR = TRUE
 
 COLOR = #38bdf8
 SUBTITLE = Core Command Syntax Reference
 COLOR = #94a3b8
-TEXT = Use these primary commands to construct your page layouts. Colors will automatically apply to elements declared after a COLOR switch.
+TEXT = <span style='font-size:13px;'>Use these primary commands to construct your page layouts. Colors will automatically apply to elements declared after a COLOR switch.</span>
 
-BOX = #1e293b | #334155 | TITLE = Page Title | Set primary headers
-BOX = #1e293b | #334155 | SUBTITLE = Subheading | Create structural sections
-BOX = #1e293b | #334155 | TEXT = Paragraph content | Render standard descriptive body text
-BOX = #1e293b | #334155 | HR = TRUE | Insert a soft, matching divider rule line
+BOX = #1e293b | #334155 | TITLE = <span style='font-size:18px;'>Page Title</span> | <span style='font-size:12px;'>Set primary headers</span>
+BOX = #1e293b | #334155 | SUBTITLE = <span style='font-size:14px;'>Subheading</span> | <span style='font-size:12px;'>Create structural sections</span>
+BOX = #1e293b | #334155 | TEXT = <span style='font-size:12px;'>Paragraph content | Render standard descriptive body text</span>
+BOX = #1e293b | #334155 | HR = TRUE | <span style='font-size:12px;'>Insert a soft, matching divider rule line</span>
 
 HR = TRUE
 
 COLOR = #38bdf8
 SUBTITLE = Interactive & Advanced UI Elements
 COLOR = #94a3b8
-TEXT = For links, boxes, warnings, and embedded media, use the pip-separated (|) parameter syntax below:
+TEXT = <span style='font-size:13px;'>For links, boxes, warnings, and embedded media, use the pip-separated (|) parameter syntax below:</span>
 
-BOX = #1e293b | #334155 | ALERT = Warning: Entering non-secure sector!
-BOX = #1e293b | #334155 | LINK = Visit Home Station | byte://bithome.box
+BOX = #1e293b | #334155 | ALERT = <span style='font-size:12px;'>Warning: Entering non-secure sector!</span>
+BOX = #1e293b | #334155 | LINK = <span style='font-size:13px;'>Visit Home Station</span> | byte://bithome.box
 BOX = #1e293b | #334155 | IMAGE = 300 | 200 | https://worlds194.github.io/ByteWeb/assets/banner.png
-BOX = #1e293b | #334155 | BOX = #0f172a | #ef4444 | Inside a special outer display container layout block!
+BOX = #1e293b | #334155 | BOX = #0f172a | #ef4444 | <span style='font-size:12px;'>Inside a special outer display container layout block!</span>
 
 HR = TRUE
 
 COLOR = #e2e8f0
 SUBTITLE = Full Code Template Example
 COLOR = #64748b
-TEXT = Copy this block into any .byte file to test a clean station buildout layout:
+TEXT = <span style='font-size:13px;'>Copy this block into any .byte file to test a clean station buildout layout:</span>
 
-BOX = #0f172a | #334155 | BGCOLOR = #0f172a\nCOLOR = #38bdf8\nTITLE = Alpha Station\nCOLOR = #ffffff\nTEXT = Running on the Backend Yield Terrific Engine.\nHR = TRUE\nALERT = All local terminal protocols active.
+BOX = #0f172a | #334155 | <span style='font-size:11px; font-family:monospace; display:block; line-height:1.4;'>BGCOLOR = #0f172a\nCOLOR = #38bdf8\nTITLE = Alpha Station\nCOLOR = #ffffff\nTEXT = Running on the Backend Yield Terrific Engine.\nHR = TRUE\nALERT = All local terminal protocols active.</span>
 
 HR = TRUE
 
 COLOR = #38bdf8
-CENTER = LINK = Return to System Hub | byte://bithome.box
+CENTER = LINK = <span style='font-size:13px;'>Return to System Hub</span> | byte://bithome.box
