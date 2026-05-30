@@ -3,7 +3,6 @@
 <head>
     <title>Hat Language IE Site</title>
     <script>
-        // Polyfill to give Internet Explorer the .trim() function
         if (!String.prototype.trim) {
             String.prototype.trim = function () {
                 return this.replace(/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g, '');
@@ -31,7 +30,7 @@
         </HAT>
     </script>
 
-    <script src="https://worlds194.github.io/Hat/hatengine.js"></script>
+    <script crossorigin="anonymous" src="https://worlds194.github.io/Hat/hatengine.js"></script>
 
 </body>
 </html>
