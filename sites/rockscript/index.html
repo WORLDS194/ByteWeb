@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RockWeb Environment</title>
+    <script type="text/javascript" src="rockweb.js"></script>
+</head>
+<body>
+
+    <script type="text/rockscript" id="myRockApp">
+        WINDOW Portfolio_Site
+        TITLE RockWeb is running on IE8!
+        
+        LABEL Welcome to my pure source code layout!
+        POS 40, 50
+        
+        BUTTON Click Me for a Surprise|System Matrix Online
+        POS 40, 100
+        
+        BEEP
+    </script>
+
+    <script type="text/javascript">
+        // Fetch raw script text safely across legacy browsers
+        var scriptElement = document.getElementById('myRockApp');
+        var rockCode = scriptElement.text || scriptElement.innerHTML;
+        
+        // Compile to native retro web language code instructions
+        var compiledJavaScript = compileRockWeb(rockCode);
+        
+        // Execute the pipeline payload
+        var runScript = new Function(compiledJavaScript);
+        runScript();
+    </script>
+
+</body>
+</html>
